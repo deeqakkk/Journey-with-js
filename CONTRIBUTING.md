@@ -1,5 +1,5 @@
 ## How to Contribute
-
+* First register yourself at [Hacktoberfest](https://hacktoberfest.com/)
 * Fork this repo.
 * Clone the forked repo.
 * Add your project, do the necessary changes.
