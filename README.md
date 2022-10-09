@@ -15,7 +15,7 @@ Check out `good-first-issues` for contributing [here](https://github.com/deeqakk
 </div>
 
 
-### Author
+### Connect with here
 * **Deepak Verma**
 * [Twitter](https://twitter.com/deeqakkk)
 * [GitHub](https://github.com/deeqakkk)
