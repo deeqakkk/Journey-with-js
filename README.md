@@ -1,5 +1,5 @@
 
-#                                                    Hacktoberfest2022
+# Journey with Js | Hacktoberfest
 ![image](https://user-images.githubusercontent.com/99472914/192144059-5cd0b329-f238-474b-b475-7385eaa35d05.png)
 
  
@@ -8,27 +8,18 @@
 
  
 
-<h4> You can make folders of programming languages and also you can contribute in the repo's below.</h4>
-
-<h4> Feel free to contribute to this repo by creating and editing little programs in any programming language and make different folders for the code you want to contribute. </h4>
-
-If you want to practice to make a pull request, follow the CONTRIBUTING.md
-
+<h4> You can make simple HTML, CSS and JavaScript projects to contribute here.</h4>
  
 
-Check out `good-first-issues` for contributing [here](https://github.com/deeqakkk/Journey-with-js/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+Check out `good-first-issues` for contributing [here](https://github.com/deeqakkk/Journey-with-js/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 </div>
 
-<br>
-
- 
 
 ### Author
-
 * **Deepak Verma**
 * [Twitter](https://twitter.com/deeqakkk)
 * [GitHub](https://github.com/deeqakkk)
-* [Linkedin]https://www.linkedin.com/in/deeqakkk/)
+* [Linkedin](https://www.linkedin.com/in/deeqakkk/)
 
 
  
