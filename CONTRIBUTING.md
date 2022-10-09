@@ -2,8 +2,7 @@
 
 * Fork this repo.
 * Clone the forked repo.
-* Create a new branch.
-* Make changes to the code.
+* Add your project, do the necessary changes.
 * Commit the changes.
 * Push the changes to the forked repo.
 * Create a pull request.
