@@ -9,16 +9,12 @@
 * Create a pull request.
 * and done...will be reviewed soon.
 
-## Practice to make a Pull Request
-* Fork this repo.
-* Clone the forked repo.
-* Add your Javascript project(commented code will be appreciated).
-* Update `Links-Here.md` with your project link accordingly and add screenshot of your project as well.
-* Commit the changes.
-* Push the changes to the forked repo.
-* Create a pull request.
-* and You have practiced how to make a pull request.
-* Your PR will be merged soon.
+# Format for pull request
+- Project Name
+- Project Screenshot
+- Update [Live-here](/Live-here.md) with your project
+
+
 
 <br>
 
