@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgb(55, 37, 71),rgb(0, 0, 116),rgb(4, 54, 121),rgb(5, 60, 35),black);
+    color: white;
+
+}
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+    background: rgb(0,0,0,0.1);
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    margin: 10px;
+    font-size: 600;
+    font-size: 40px;
+}
+input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+button{
+    padding: 17px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+}
+#city{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#temp{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.temps{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+#min{
+    margin-right: 60px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#max{
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#humidity{
+    font-size: 25px;
+    font-weight: 600;
+}
+#humid{
+    font-size: 30px;
+    font-weight: 700;
+}
