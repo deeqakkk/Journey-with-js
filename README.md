@@ -15,8 +15,8 @@ Check out `good-first-issues` for contributing [here](https://github.com/deeqakk
 </div>
 
 
-### Connect with here
-* **Deepak Verma**
+## Connect with here ⬇️
+### **Deepak Verma**
 * [Twitter](https://twitter.com/deeqakkk)
 * [GitHub](https://github.com/deeqakkk)
 * [Linkedin](https://www.linkedin.com/in/deeqakkk/)
@@ -48,11 +48,7 @@ If you like this project, please consider supporting it by giving it a ⭐️. I
 
 - [Hacktoberfest 2022](https://hacktoberfest.digitalocean.com)
 - [Hacktoberfest 2022 Participation Guidelines](https://hacktoberfest.com/participation)
-
-<br>
-
 - This project and other projects listed above are a part of Hacktoberfest 2022 and are open to all members of the GitHub community. Any member may contribute to these projects without being a collaborator or a maintainer and earn a T-shirt from DigitalOcean and DEV by making four valid pull requests (PRs) between October 1-31 (in any time zone).
-
 - The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the Hacktoberfest 2022 t-shirt.
 
 **Thanks goes to these wonderful people ✨**
