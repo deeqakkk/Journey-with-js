@@ -13,13 +13,11 @@
 * Fork this repo.
 * Clone the forked repo.
 * Create a new branch.
-* Add this line of code to next line after a name.
-```
-- [YourName](https://github.com/YourGitHubUsername)
-```
+* Add your Javascript project(commented code will be appreciated).
+
  
 
-* Replace YourName with your name and YourGitHubUsername with your GitHub username.
+
 * Commit the changes.
 * Push the changes to the forked repo.
 * Create a pull request.
