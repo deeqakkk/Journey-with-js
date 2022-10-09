@@ -14,12 +14,12 @@ function selectItem(e) {
 }
 
 function removeBorder() {
-  tabItems.forEach(item => item.classList.remove("tab-border"));
+  tabItems.forEach((item) => item.classList.remove("tab-border"));
 }
 
 function removeShow() {
-  tabContentItems.forEach(item => item.classList.remove("show"));
+  tabContentItems.forEach((item) => item.classList.remove("show"));
 }
 
 // Listen for tab click
-tabItems.forEach(item => item.addEventListener("click", selectItem));
+tabItems.forEach((item) => item.addEventListener("click", selectItem));
