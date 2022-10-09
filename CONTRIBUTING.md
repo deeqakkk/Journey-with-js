@@ -12,12 +12,8 @@
 ## Practice to make a Pull Request
 * Fork this repo.
 * Clone the forked repo.
-* Create a new branch.
 * Add your Javascript project(commented code will be appreciated).
-
- 
-
-
+* Update `Links-Here.md` with your project link accordingly and add screenshot of your project as well.
 * Commit the changes.
 * Push the changes to the forked repo.
 * Create a pull request.
