@@ -1,5 +1,3 @@
-
-//Object Array to hold quotes, sources, citaitons and years
 var quotes = [
 	{
 	quote: "Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind.",
@@ -195,10 +193,3 @@ window.setInterval(function(){
 printQuote ();
 }, 20000);
 document.getElementById("loadQuote").addEventListener("click", printQuote, false);
-
-
-
-
-
-
-	
