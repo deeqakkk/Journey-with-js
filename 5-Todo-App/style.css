@@ -10,6 +10,8 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url(./sky2.jpg);
     background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main{
