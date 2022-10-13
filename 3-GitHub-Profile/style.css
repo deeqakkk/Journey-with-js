@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(0, 16, 85);
+    background: linear-gradient(90deg, rgba(0, 16, 85, 1) 100%, rgba(15, 137, 137, 1) 100%, rgba(255, 0, 0, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vh;
+    color: white;
+}
+
+#content {
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 15px 10px;
+    margin-top: 120px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#card {
+    background: rgb(4, 119, 255);
+    background: linear-gradient(90deg, rgba(4, 119, 255, 1) 100%, rgba(15, 137, 137, 1) 100%, rgba(255, 0, 0, 1) 100%);
+    border-radius: 15px;
+    max-width: 800px;
+    display: flex;
+    padding: 3rem;
+}
+
+.photo {
+    border-radius: 50%;
+    border: 10px solid rgb(20, 45, 156);
+    height: 150px;
+    width: 150px;
+}
+
+.info-div {
+    margin-left: 20px;
+    border-left: 1px solid white;
+    padding-left: 15px;
+}
+
+.info-div ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 15px 0;
+}
+
+.info-div ul li {
+    display: flex;
+    align-items: center;
+}
+
+.info-div ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    background-color: #2a2a72;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Montserrat',sans-serif;
+    font-size: 14px;
+}
+body{
+    background: hsl(30, 38%, 92%);
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: inline-block;
+    width: 100%;
+}
+.split{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 45%;
+    height: 65vh;
+    color:grey;
+    background: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.209);
+    position: relative;
+}
+.image{
+    background-image:url('img/image-product-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-radius:12px 0px 0px 12px;
+    height: 100%;
+
+}
+.split > div{
+    width: 100%;
+    
+}
+.content img{
+    width: 10%;
+}
+.content{
+    padding:2rem;
+}
+.title{
+    letter-spacing: .25rem;
+    font-size: 1rem;
+}
+.content h3{
+    font-family: 'Fraunces',sans-serif;
+    font-size: 3rem;
+    line-height: 2.9rem;
+    margin:2rem 0px;
+    color: hsl(212, 21%, 14%);
+}
+.content p{
+    line-height: 1.8;
+}
+.content .price{
+    font-family:'Fraunces',sans-serif;
+    font-size: 2.5rem;
+    color:hsl(158, 36%, 37%);
+    margin:1.5rem 0rem;
+    font-weight: bold;
+    padding:1rem 0rem;
+}
+.content .price span{
+    font-size: .8rem;
+    margin-left:1.2rem;
+    text-decoration: line-through;
+}
+.content a{
+    text-decoration: none;
+    background: hsl(158, 46%, 23%);
+    padding:1rem 5rem;
+    color:#f4f4f4;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s all;
+}
+.content a:hover{
+    background: hsl(158, 36%, 37%);
+}
+.content img{
+    width: 5%;
+}
+@media(max-width:375px){
+    *{
+        padding:0;
+        margin:0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .section{
+        height: 0vh;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .split{
+        display: grid;
+        grid-template-columns:1fr;
+        width: 100%;
+        height: 40vh;
+        padding:1rem;
+        background: transparent;
+        box-sizing: 0;
+    }
+    .image{
+        background-image:url('img/image-product-mobile.jpg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 60vh;
+        border-radius: 0;
+        margin: .2rem;
+    }
+    .content{
+        margin-top: -8rem;
+        width: 100%;
+            }
+    .content img{
+        height: 5%;
+    } 
+    .content h3{
+        font-size: 2rem;
+        width: 90%;
+    }
+}
