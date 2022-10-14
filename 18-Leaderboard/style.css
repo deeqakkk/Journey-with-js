@@ -5,7 +5,7 @@ html, body {
 
 .input-value, .heading {
    display: block;
-    width: 100;  
+    width: 100;
     text-align: center;
 
 }
@@ -17,11 +17,11 @@ html, body {
 
 .button {
   display:inline-block;
-  background-color: #E9967A	
+  background-color: #E9967A
 }
 
 .required-text {
   display: block;
-    width: 100%;  
+    width: 100%;
   text-align: center;
 }
