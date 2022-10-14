@@ -64,7 +64,10 @@ button{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 10px;
+}
+.temps p{
+    flex-basis: 50%;
 }
 #min{
     margin-right: 60px;
