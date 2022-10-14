@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.input-value, .heading {
+   display: block;
+    width: 100;  
+    text-align: center;
+
+}
+
+.input-text {
+      display:inline-block;
+
+}
+
+.button {
+  display:inline-block;
+  background-color: #E9967A	
+}
+
+.required-text {
+  display: block;
+    width: 100%;  
+  text-align: center;
+}
