@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all about forms in html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="inpCol">Fill The Form</h3>
+        <form action="noaction.php" class="inpCol">
+            <fieldset>
+                <!-- <legend>Login Form</legend> -->
+                <label for="fname" class="inpCol">Enter Your Name<input type="text" name="fname" class="inp inpCol"
+                        required></label>
+                <label for="fname" class="inpCol">Enter Your Email</label>
+                <input type="email" class="inp inpCol" required>
+                <label for="fname" class="inpCol">Enter Your Ph. Number</label>
+                <input type="number" minLength="10" class="inp inpCol" required>
+                <label class="inpCol">Enter your age (years)</label>
+                <input type="number" min="13" max="120" class="inp inpCol">
+                Select Your Gender:
+                <label class="inpCol"><input type="radio" name="Gender" required> male</label>
+                <label class="inpCol"><input type="radio" name="Gender" required> female</label>
+                <br>
+                <br>
+                <label for="fname" class="inpCol">Enter The Password</label>
+                <input type="password" class="inp inpCol" name="password" required pattern="[a-z0-5]{8,}">
+                <label class="inpCol">Upload A Profile Picture: <input type="file" class="inp inpCol"></label>
+                <label class="inpCol">Select The Date: <input type="date" class="inp inpCol"></label>
+                <label class="inpCol">How did you hear about us?
+                    <select class="inp inpCol">
+                        <option value="">-- select one --</option>
+                        <option value="1">Social Media</option>
+                        <option value="2">Our YouTube Channel</option>
+                        <option value="3">Freinds/any person</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+                <label class="inpCol">Provide a bio:</label>
+                <textarea class="txtarea inp inpCol" rows="5" placeholder="I like coding on the beach...."></textarea>
+                <label class="inpCol"><input type="checkbox" required><a class="inpCol"
+                        href="https://www.freecodecamp.org/news/terms-of-service/" target="_blank">I have read the terms
+                        and conditions</a></label>
+                <button>submit now</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
