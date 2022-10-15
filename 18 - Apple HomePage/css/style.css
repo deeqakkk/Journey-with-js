@@ -1,0 +1,382 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+img{
+    width: 100%;
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+section{
+    width: 100%;
+    height: 90vh;
+}
+.btn{
+    color: white;
+    padding:.5em 1em;
+    border: .1rem solid white;
+    border-radius: 2rem;
+    font-size: .8em;
+    transition: .8s background ease;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.btn-inverse{
+    color: black;
+    padding:.5em 1em;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    font-size: .8em;
+    transition: .8s background ease;
+}
+.btn-inverse:hover{
+    background: black;
+    color: #fff;
+}
+
+header{
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed ;
+}
+header ul{
+    padding-block-start: .6em;
+
+}
+header ul li{
+    font-size: 14px;
+    margin-inline: .6rem;
+    display: inline-block;
+    text-align: center;
+}
+header ul li i{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1em;
+}
+header ul li a{
+    padding: .2em .1em;
+    font-weight: 100;
+    color: white;
+    transition: .1s font-weight ease-in;
+}
+header ul li a:hover{
+    font-weight: 400;
+}
+.showcase{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../image/showcase.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+.showcase .content{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    width: 35%;
+    text-align: center;
+}
+.content .btn{
+    margin-top: 2em;
+    display: inline-block;   
+}
+.para{
+
+     margin:5rem auto;
+     width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+.para h1{
+    letter-spacing: 1.01;
+    font-size: 3.2rem;
+    background:linear-gradient(to right ,purple,white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.para p{
+    margin: auto;
+    width: 65%;
+    line-height: 1.2;
+}
+.para .btn{
+ margin-top: 1.5em;
+}
+.hero img{
+    margin-top:2.5rem;
+    width: 74.7%;
+}
+.hand{
+    color:#000;
+    background: white;
+    text-align: center;
+}
+.hand .split{
+    height: 90vh;
+    margin: auto;
+    width: 65%;
+    display: flex;
+}
+.split .left{
+    width: 70%;
+    padding: 2em;
+    margin:auto  0rem ;
+    }
+    .split .left h1{
+        font-size: 3.2em;
+        background: linear-gradient(to right, #33ccff ,rgb(40, 165, 214),rgb(216, 94, 115),red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+    }
+    .split .left p{
+        font-size: 1em;
+        font-weight: bold;
+    }
+.split .left a{
+    margin-top: 1em;
+}
+.split .right img{
+    width: 124.6%;
+    margin-top: 5rem;
+}
+.airpods{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.airpods .text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.airpods .text h1{
+    font-size: 3rem;
+    color: white;
+}
+.text p{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 1.5rem;
+}
+.airpods .img{
+    width:30%;
+    margin: -.3rem auto;
+}
+.watch {
+    background: #fff;
+    color: black;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+.watch .text{
+    margin-top: 3rem;
+
+}
+.watch .text h1{
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    
+}
+.watch .text h3{
+color: orangered;
+letter-spacing: .2rem;
+}
+.watch .text p{
+    width: 34%;
+    font-weight: bold;
+    margin-block:1rem ;
+}
+.watch .img{
+    margin:auto;
+    margin-top: 2.5rem;
+    width: 75%;
+}
+.watch2{
+    margin: auto;
+    display: flex;
+    width: 60%;
+    text-align: center;
+}
+.watch2 .img{
+    width: 120%;
+}
+.watch2 .text {
+    padding: 0;
+    margin: auto;
+}
+.watch2 .text h1{
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    margin-bottom: .5rem;
+}
+.watch2 .text h3{
+    color: rgb(182, 5, 5);
+    letter-spacing: .1rem;
+    margin-bottom: .5rem;
+}
+.watch2 .text p{
+    width: 55%;
+    font-weight: 600;
+    color: #fff;
+}
+.watch-se{
+    background: white;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 115vh;
+}
+.watch-se .text{
+    width: 40%;
+    margin-top: 2rem;
+}
+.watch-se .text h1{
+    font-size: 2.5rem;
+}
+.watch-se .text h3{
+    font-weight: 600;
+    color: rgb(163, 4, 4);
+    margin-bottom: 1rem;
+}
+.watch-se .text p{
+    font-weight: 550;
+}
+.watch-se .text a,.fitness .text a{
+    margin-inline: .5em;
+    color: black;
+    padding: .5em 1em;
+    border-radius: 2rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    transition: .5s background ease-in;
+}
+.watch-se .text a:hover,.fitness .text a:hover {
+    background: #333;
+    color: white;
+}
+.watch-se .img{
+    width: 40%;
+    margin: auto;
+}
+.fitness {
+    background: #ddd;
+    color: #000;
+    height: 115vh;
+    text-align: center;
+    position: flex;
+}
+.fitness .text{
+    width: 50%;
+    margin: auto;
+    padding: 2.5rem;
+}
+.fitness .text h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.fitness .text p{
+    width: 70%;
+    font-weight: bold;
+}
+.fitness .img{
+    margin: auto;
+    width: 30%;
+}
+.main-footer{
+    background: #1d1d1f;
+    color: #ccc;
+    font-weight: 400;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    font-size: .7rem;
+}
+.container .flex {
+    display: flex;
+    padding: 1rem 0rem;
+}
+.container > p{
+    width: 75%;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid grey;
+}
+.container .flex ul{
+    margin-right:2rem;
+}
+.container .flex ul li{
+    padding: .1rem;
+    margin: .1rem;
+}
+.container .flex ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container .flex ul li h6{
+    font-size: .7rem;
+    font-weight: 600;
+}
+.bottom > p{
+border-bottom: .5px solid;
+padding-bottom:.3rem ;
+font-size: .6rem;
+}
+.bottom > p span{
+    color: #2997ff;
+}
+.bottom ul {
+    margin-top: .3rem;
+}
+.bottom ul li{
+    display: inline-block;
+}
+.bottom ul li > p{
+    color: grey;
+    margin-right: 1rem;
+}
+.bottom ul li:nth-of-type(1){
+    border: 0;
+}
+.bottom ul li {
+    padding: .2em .7em ;
+    border-right: 1px solid grey;
+}
+.bottom .corner {
+    border: 0;
+    margin-left: 8.5rem;
+}
