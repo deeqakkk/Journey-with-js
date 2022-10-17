@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoP9hI4HI48H6j3mycIDmtOemI3xsT-sP4PQ&usqp=CAU">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Fall</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: linear-gradient(to right,#d2430f 19%,#37623f 42%,#00d4ff 100%);
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+    background-image: url('https://user-images.githubusercontent.com/96621669/196149655-a757140e-1e59-4f45-b706-50831fe917d0.png');
+    background-repeat: no-repeat;
+}
+#block{
+    width: 20px;
+    height: 500px;
+    background-color: black;
+    background-image: url('https://user-images.githubusercontent.com/96621669/196149875-0ab24aca-951e-414b-b2ea-4b5e1b7b9cf6.jpg');
+    position: relative;
+    left: 400px;
+    animation: block 5s infinite linear;
+
+}
+@keyframes block {
+    0%{left:400px}
+    100%{left: -50px;}
+    
+}
+#hole{
+    width: 20px;
+    height: 130px;
+    background-color: rgb(100, 88, 73);
+    background-position: inherit;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 5s infinite linear ;
+
+}
+
+#charac{
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+    background-image: url('https://user-images.githubusercontent.com/96621669/196149787-35c398ab-15b1-4c09-8d4d-af1cc7164aa5.jpg');
+    position: absolute;
+    top: 100px;
+    border-radius: 100%;
+   
+    animation: 20s;
+}
+    </style>
+</head>
+<body>
+    <div id="game">
+        <div id="block"></div>
+        <div id="hole"></div>
+        <div id="charac"></div>
+    </div>  
+</body>
+<script>
+    var block = document.getElementById("block");
+var hole = document.getElementById("hole");
+var charac = document.getElementById("charac");
+var jumping = 0;
+var counter = 0;
+
+hole.addEventListener('animationiteration', () => 
+{
+    var random = Math.random()*3;
+    var top = (random*100)+150;
+    hole.style.top = -(top) + "px";
+    counter++;
+});
+
+setInterval(function()
+{
+    var characTop= parseInt(window.getComputedStyle(charac).getPropertyValue("top"));
+    if(jumping==0){
+        charac.style.top = (characTop+3)+"px";
+    }
+    var blockleft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
+    var holetop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
+    var cTop=-(500-characTop)
+    if ((characTop>480)||((blockleft<20)&&(blockleft>-50)&&((cTop<holetop)||(cTop>holetop+110))))
+    {
+        alert("Game over. Your Score: " + counter);
+        charac.style.top = 100+"px";
+        counter=0;
+    }
+},30);
+
+function jump()
+{
+    jumping = 1;
+    let jumpCount = 0;
+    var jumpInterval = setInterval(function()
+    {
+        var characTop = parseInt(window.getComputedStyle(charac).getPropertyValue("top"));
+
+        if((characTop>6)&&(counter<15))
+        {
+            charac.style.top = (characTop-3)+"px";
+        }
+        if(jumpCount>20)
+        {
+            clearInterval(jumpInterval);
+            jumping=0;
+            jumpCount=0;
+        }
+        jumpCount++;
+
+    },20);
+}
+</script>
+</html>
