@@ -1,5 +1,4 @@
 * {
-  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
 }
@@ -15,33 +14,23 @@ body {
 
 .container {
   width: 1200px;
-  /* margin-left: auto;
-  margin-right: auto; */
   margin: 0 auto;
 }
 
 .main-header {
   background-color: #f7f7f7;
-  /* padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px; */
   padding: 20px 40px;
-  /* margin-bottom: 60px; */
-  /* height: 80px; */
 }
 
 nav {
   font-size: 18px;
-  /* text-align: center; */
 }
 
 article {
-  /* margin-bottom: 60px; */
 }
 
 .post-header {
   margin-bottom: 40px;
-  /* position: relative; */
 }
 
 aside {
@@ -49,7 +38,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 40px 10px;
-  /* width: 500px; */
   box-sizing: border-box;
 }
 
@@ -98,20 +86,11 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
-  /* display: inline; */
 }
 
 li:last-child {
   margin-bottom: 0;
 }
-
-/* footer p {
-  font-size: 16px;
-} */
-
-/* article header p {
-  font-style: italic;
-} */
 
 #author {
   font-style: italic;
@@ -127,21 +106,12 @@ li:last-child {
   font-weight: bold;
 }
 
-/* ul {
-  list-style: none;
-} */
-
 .related {
   list-style: none;
 }
 
 body {
-  /* background-color: orangered; */
 }
-
-/* .first-li {
-  font-weight: bold;
-} */
 
 li:first-child {
   font-weight: bold;
@@ -152,10 +122,8 @@ li:last-child {
 }
 
 li:nth-child(even) {
-  /* color: red; */
 }
 
-/* Misconception: this won't work! */
 article p:first-child {
   color: red;
 }
@@ -167,7 +135,6 @@ a:link {
 }
 
 a:visited {
-  /* color: #777; */
   color: #1098ad;
 }
 
@@ -189,14 +156,7 @@ a:active {
 }
 
 nav a:link {
-  /* background-color: orangered;
-  margin: 20px;
-  padding: 20px;
-
-  display: block; */
-
   margin-right: 30px;
-  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -210,8 +170,6 @@ button {
   cursor: pointer;
 
   position: absolute;
-  /* top: 50px;
-  left: 50px; */
   bottom: 50px;
   right: 50px;
 }
@@ -221,12 +179,7 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
-  /* color: red; */
-}
-
 h2 {
-  /* background-color: orange; */
   position: relative;
 }
 
@@ -242,62 +195,6 @@ h2::before {
   top: -10px;
   right: -25px;
 }
-
-/* Resolving conflicts */
-/* #copyright {
-  color: red;
-}
-
-.copyright {
-  color: blue;
-}
-
-.text {
-  color: yellow;
-}
-
-footer p {
-  color: green !important;
-} */
-
-/* nav a:link,
-nav p {
-  font-size: 18px;
-} */
-
-/* FLOATS */
-
-/* .author-img {
-  float: left;
-  margin-bottom: 20px;
-}
-#author {
-  float: left;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-h1 {
-  float: left;
-}
-nav {
-  float: right;
-}
-.clear {
-  clear: both;
-}
-
-article {
-  width: 825px;
-  float: left;
-}
-
-aside {
-  width: 300px;
-  float: right;
-}
-footer {
-  clear: both;
-} */
 
 /* FLEXBOX */
 .main-header {
@@ -335,21 +232,6 @@ footer {
   font-style: italic;
   font-size: 14px;
 }
-/* .row {
-  display: flex;
-  align-items: flex-start;
-  gap: 75px;
-  margin-bottom: 60px;
-}
-
-article {
-  flex: 1;
-  margin-bottom: 0;
-}
-
-aside {
-  flex: 0 0 300px;
-} */
 
 /* CSS GRID */
 .container {
