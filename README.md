@@ -15,7 +15,7 @@ Check out `good-first-issues` for contributing [here](https://github.com/deeqakk
 </div>
 
 
-## Connect with here ⬇️
+## Connect with here ⬇️ Don't fogot to checkout [Way2Intern](https://twitter.com/Way2Intern) !
 ### **Deepak Verma**
 * [Twitter](https://twitter.com/deeqakkk)
 * [GitHub](https://github.com/deeqakkk)
