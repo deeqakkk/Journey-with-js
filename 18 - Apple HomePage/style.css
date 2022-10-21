@@ -87,7 +87,7 @@ header ul li a:hover{
 .showcase{
     height: 100vh;
     width: 100%;
-    background-image: url('../image/showcase.jpg');
+    background-image: url('image/showcase.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
