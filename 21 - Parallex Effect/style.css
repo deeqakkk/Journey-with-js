@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+p{
+    font-size: 21px;
+    line-height: 1.5;
+    font-family: Arial;
+}
+.img1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('img1.jpg');
+}
+.img1,.img2,.img3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img2{
+    height: 50vh;
+    background-image:url('img2.jpg');
+}
+.img3{
+    height: 50vh;
+    background-image: url('img3.jpg');
+}
+.para{
+    background-color: #ccc;
+    color: rgb(28, 24, 24);
+    padding: 2rem 3rem;
+}
