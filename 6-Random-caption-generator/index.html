@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random QUOTES</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f86a18ec97.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <p>randomCAPTION</p>
+      <a href="https://api.quotable.io" target="_BLANK">ABOUT</a>
+      <a href="#">SHARE</a>
+      <a href="#">SUPPORT</a>
+    </div>
+    <div class="container">
+      <h1>random quotes</h1>
+      <p>Generator for Instagram</p>
+      <div class="author">
+        <span id="author"></span>
+      </div>
+      <div class="quote">
+        <span id="random"></span>
+      </div>
+
+      <div class="buttons">
+        <button onclick="window.location.reload()">
+          Next <i class="far fa-arrow-alt-circle-right"></i>
+        </button>
+        <button onclick="copy_text_fun()">
+          copy <i class="far fa-clone"></i>
+        </button>
+      </div>
+      <!-- <img src="insta-like.png" alt="insta" /> -->
+
+      <div class="footer">
+        <p>Made by Ranjeet Saw with quotable.io REST-API</p>
+      </div>
+    </div>
+
+    <!--JAVASCRIPT FOR API CONNECTION (FETCHING)-->
+
+    <script>
+      const api_url = "https://api.quotable.io/random";
+      async function get_quote() {
+        var response = await fetch(api_url);
+        var data = await response.json();
+        document.getElementById("random").innerHTML = data.content;
+        document.getElementById("author").innerHTML = data.author;
+      }
+
+      get_quote();
+
+      // FUNCTION TO COPY QUOTE TO CLIPBOARD
+
+      function copy_text_fun() {
+        var copyText = document.getElementById("random");
+        // creating textarea of html
+        var input = document.createElement("textarea");
+        //adding SPAN tag text to textarea
+        input.value = copyText.textContent;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand("Copy");
+        // removing textarea after copy
+        input.remove();
+        alert("Quote copied sucessfully");
+      }
+    </script>
+  </body>
+</html>
