@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    #d2430f 19%,
+    #37623f 42%,
+    #00d4ff 100%
+  );
+}
+
+#game {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  overflow: hidden;
+  background-image: url("https://user-images.githubusercontent.com/96621669/196149655-a757140e-1e59-4f45-b706-50831fe917d0.png");
+  background-repeat: no-repeat;
+}
+#block {
+  width: 20px;
+  height: 500px;
+  background-color: black;
+  background-image: url("https://user-images.githubusercontent.com/96621669/196149875-0ab24aca-951e-414b-b2ea-4b5e1b7b9cf6.jpg");
+  position: relative;
+  left: 400px;
+  animation: block 5s infinite linear;
+}
+@keyframes block {
+  0% {
+    left: 400px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+#hole {
+  width: 20px;
+  height: 130px;
+  background-color: rgb(100, 88, 73);
+  background-position: inherit;
+  position: relative;
+  left: 400px;
+  top: -500px;
+  animation: block 5s infinite linear;
+}
+
+#charac {
+  width: 20px;
+  height: 20px;
+  background-color: crimson;
+  background-image: url("https://user-images.githubusercontent.com/96621669/196149787-35c398ab-15b1-4c09-8d4d-af1cc7164aa5.jpg");
+  position: absolute;
+  top: 100px;
+  border-radius: 100%;
+
+  animation: 20s;
+}
