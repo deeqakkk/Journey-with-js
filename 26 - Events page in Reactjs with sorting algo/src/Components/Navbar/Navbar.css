@@ -1,0 +1,9 @@
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  box-shadow: 5px 5px 15px 5px #efefef;
+}
+.logo img {
+  width: 153px;
+  height: 73px;
+}

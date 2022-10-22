@@ -1,0 +1,42 @@
+.sidebar {
+  width: 381px;
+  height: 586px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(85, 87, 88, 0.15);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.country_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 10px;
+}
+.country_name {
+  list-style-type: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  width: 90%;
+  padding: 0px 10px;
+
+}
+
+.country_name.active{
+  padding: 10px 10px;
+  background-color: red;
+  background: #f16621;
+  box-shadow: 0px 4px 10px rgba(156, 187, 217, 0.51);
+  border-radius: 12px;
+  color: white;
+}

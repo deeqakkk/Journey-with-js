@@ -1,0 +1,24 @@
+.title {
+  text-align: center;
+  margin-top: 60px;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.main_content {
+  display: flex;
+}
+.card_events {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.card_events::-webkit-scrollbar {
+  display: none;
+}
+.countries {
+  margin-left: 125px;
+  /* position:static; */
+}
